@@ -1,4 +1,4 @@
-# agromech
+# ws-redux-example
 
 a work in progress example of how I am using server side websockets, node.js and
 redux.
