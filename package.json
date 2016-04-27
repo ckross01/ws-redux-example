@@ -1,0 +1,22 @@
+{
+  "name": "ws-redux",
+  "version": "1.0.0",
+  "description": "presentation on predictable state containers with ws and redux",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV='development' node server.js",
+    "debug": "devtool server.js --watch",
+    "test": "node node_modules/.bin/ava test/**/*.js -w --verbose"
+  },
+  "author": "Chris Ross <christopher.k.ross@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "redux": "^3.4.0",
+    "ws": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "redux-node-logger": "0.0.3",
+    "sinon": "^1.17.3"
+  }
+}

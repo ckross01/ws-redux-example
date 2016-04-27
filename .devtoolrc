@@ -1,0 +1,5 @@
+{
+ "v8": {
+   "flags": ["--harmony_destructuring"]
+  }
+}
